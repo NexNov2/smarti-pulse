@@ -1,14 +1,35 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Header from "@/components/landing/Header";
+import HeroSection from "@/components/landing/HeroSection";
+import ImpactBar from "@/components/landing/ImpactBar";
+import ProblemSection from "@/components/landing/ProblemSection";
+import SolutionSection from "@/components/landing/SolutionSection";
+import ResultsSection from "@/components/landing/ResultsSection";
+import VideoSection from "@/components/landing/VideoSection";
+import DifferentialsSection from "@/components/landing/DifferentialsSection";
+import CasesSection from "@/components/landing/CasesSection";
+import ImplementationSection from "@/components/landing/ImplementationSection";
+import FAQSection from "@/components/landing/FAQSection";
+import FinalCTA from "@/components/landing/FinalCTA";
+import Footer from "@/components/landing/Footer";
+import WhatsAppFloat from "@/components/landing/WhatsAppFloat";
 
-const Index = () => {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
-    </div>
-  );
-};
+const Index = () => (
+  <main>
+    <Header />
+    <HeroSection />
+    <ImpactBar />
+    <ProblemSection />
+    <SolutionSection />
+    <ResultsSection />
+    <VideoSection />
+    <DifferentialsSection />
+    <CasesSection />
+    <ImplementationSection />
+    <FAQSection />
+    <FinalCTA />
+    <Footer />
+    <WhatsAppFloat />
+  </main>
+);
 
 export default Index;
