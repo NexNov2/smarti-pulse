@@ -50,33 +50,33 @@ const HeroSection = () => (
     <div className="max-w-6xl mx-auto px-4 md:px-8 grid md:grid-cols-2 gap-8 md:gap-12 items-center">
       <div>
         <span className="inline-block bg-smarti-rose/10 text-smarti-rose text-sm font-semibold px-3 py-1 rounded-full mb-4">
-          Automacao para Supply Chain
+          Automação para Supply Chain
         </span>
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold text-smarti-blue leading-tight mb-4">
-          Automatize o follow-up de pedidos com fornecedores e elimine atrasos na sua operacao
+          Automatize o follow-up de pedidos e elimine atrasos na operação
         </h1>
-        <p className="text-base md:text-lg text-smarti-gray-text mb-6">
+        <p className="text-base md:text-lg text-gray-600 mb-6">
           Quanto tempo seu time perde toda semana cobrando fornecedores por e-mail e planilha? O Smarti Supply faz isso automaticamente, integrado ao seu ERP, com visibilidade em tempo real.
         </p>
         <CTAButton text="Falar com especialista agora" tracking="hero" />
-        <div className="flex items-center gap-2 mt-6 text-sm text-smarti-gray-text flex-wrap">
-          <Factory className="w-4 h-4 text-smarti-gray-text" />
+        <div className="flex items-center gap-2 mt-6 text-sm text-gray-600 flex-wrap">
+          <Factory className="w-4 h-4 text-gray-600" />
           <span>Papel e celulose</span>
           <span className="text-gray-300">·</span>
-          <span>Farmaceutico</span>
+          <span>Farmacêutico</span>
           <span className="text-gray-300">·</span>
-          <Zap className="w-4 h-4 text-smarti-gray-text" />
+          <Zap className="w-4 h-4 text-gray-600" />
           <span>Energia</span>
           <span className="text-gray-300">·</span>
-          <Truck className="w-4 h-4 text-smarti-gray-text" />
-          <span>Logistica</span>
+          <Truck className="w-4 h-4 text-gray-600" />
+          <span>Logística</span>
         </div>
-        <div className="flex gap-4 mt-3 text-xs text-gray-400 font-medium flex-wrap">
-          <span>Solucao propria</span>
+        <div className="hidden md:flex gap-4 mt-3 text-xs text-gray-400 font-medium flex-wrap">
+          <span>Solução própria</span>
           <span>·</span>
           <span>8 anos de mercado</span>
           <span>·</span>
-          <span>Integracao com SAP, Oracle e Totvs</span>
+          <span>Integração com SAP, Oracle e Totvs</span>
         </div>
       </div>
       <DashboardVisual />
