@@ -5,7 +5,7 @@ const ImpactBar = () => (
         De 2 dias → 30 min
       </div>
       <p className="text-base md:text-lg text-white/90 max-w-xl">
-        A consolidacao de dados de follow-up que levava 2 dias por semana com acao humana passa a ser processada em 30 minutos, sem intervencao manual.
+        A consolidação de dados de follow-up que levava 2 dias por semana com ação humana passa a ser processada em 30 minutos, sem intervenção manual.
       </p>
     </div>
   </section>
