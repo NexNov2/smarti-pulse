@@ -4,7 +4,7 @@ import ImpactBar from "@/components/landing/ImpactBar";
 import ProblemSection from "@/components/landing/ProblemSection";
 import SolutionSection from "@/components/landing/SolutionSection";
 import ResultsSection from "@/components/landing/ResultsSection";
-import VideoSection from "@/components/landing/VideoSection";
+
 import DifferentialsSection from "@/components/landing/DifferentialsSection";
 import CasesSection from "@/components/landing/CasesSection";
 import ImplementationSection from "@/components/landing/ImplementationSection";
@@ -21,7 +21,7 @@ const Index = () => (
     <ProblemSection />
     <SolutionSection />
     <ResultsSection />
-    <VideoSection />
+    
     <DifferentialsSection />
     <CasesSection />
     <ImplementationSection />
